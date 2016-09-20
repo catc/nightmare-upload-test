@@ -1,0 +1,19 @@
+{
+  "name": "nightmare-upload-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "main": "http-server ./ -p 3001 -c-1 -s",
+    "test": "mocha test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "http-server": "^0.9.0",
+    "mocha-generators": "^1.2.0",
+    "nightmare": "^2.7.0",
+    "nightmare-upload": "^0.1.1"
+  }
+}
